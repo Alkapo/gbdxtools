@@ -32,7 +32,7 @@ Use the s3 member of the Interface:
  u'S3_session_token': u'blah',
  u'bucket': u'gbd-customer-data',
  u'prefix': u'58600248-2927-4523-b44b-5fec3d278c09'}
-   >>> item = 'testdata/test1.tif'
+   >>> item = 'path/to/S3/test/file.tif'
    >>> gbdx.s3.download(item)
 
 You can see the contents of your bucket/prefix using this link: http://s3browser.geobigdata.io/login.html.
